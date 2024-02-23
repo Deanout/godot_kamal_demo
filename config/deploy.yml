@@ -7,7 +7,7 @@ image: deanin/kamal-video
 servers:
   web:
     hosts:
-      - 159.203.96.246
+      - 1.2.3.4
     labels:
       traefik.http.routers.deanout_secure.entrypoints: websecure
       traefik.http.routers.deanout_secure.rule: Host(`deanout.com`)
